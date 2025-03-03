@@ -55,6 +55,7 @@ function TeamList() {
   );
 }
 
+// Link to NCAA's website
 function EmailUs() {
   return (
     <div>
@@ -70,8 +71,8 @@ function App() {
   return (
     <>
       <Welcome />
-      <TeamList />
       <EmailUs />
+      <TeamList />
     </>
   );
 }
